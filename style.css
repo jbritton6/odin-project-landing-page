@@ -54,6 +54,20 @@
     gap: 25px;
 }
 
+.lower-box {
+    align-items: center;
+    background-color: #3382F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 150px;
+    padding: 25px 100px;
+}
+
+.lower-box-text {
+    color:#E5E7EB;
+}
+
 .middle-box {
     text-align: center;
     margin: 90px auto;
@@ -125,6 +139,10 @@ h2 {
     color: #1F2937;
     font-size: 36px;
     font-weight: extra-bold;
+}
+
+h3 {
+    margin: 0;
 }
 
 p {

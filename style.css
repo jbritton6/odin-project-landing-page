@@ -12,6 +12,15 @@
     justify-content: center;
 }
 
+.footer {
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+}
+
 .gray-box {
     align-items: center;
     background-color: gray;

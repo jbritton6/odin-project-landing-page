@@ -41,6 +41,7 @@
     border-radius: 10px;
     height: 125px;
     width: 125px;
+    margin: 10px;
 }
 
 .links,
@@ -56,6 +57,26 @@
 .middle-box {
     text-align: center;
     margin: 90px auto;
+}
+
+.quote {
+    align-self: flex-start;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote-attribute {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20%;
 }
 
 .subtext {
@@ -100,10 +121,19 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+
+p {
+    margin: 0;
+}
+
 ul {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
-
